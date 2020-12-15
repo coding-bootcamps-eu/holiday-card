@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+html {
+  background-color: white;
+  font-family: "Dancing Script", cursive;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: peachpuff;
+  width: 600px;
+  height: 400px;
+  border: 10px solid crimson;
+  border-radius: 5px;
+  box-shadow: 20px 20px 10px rgba(0, 0, 0, 0.1);
+  background-image: url(tree.png);
+  background-size: 40px 40px;
+  background-repeat: round;
+}
+
+h1 {
+  margin: 0;
+  color: snow;
+  font-size: 80px;
+  text-shadow: 2px 2px green;
+  background-color: crimson;
+  padding: 10px 0;
+  width: 100%;
+  text-align: center;
+}
